@@ -102,7 +102,7 @@ int main()
 		setUniform(mvpFragShadTest, 0, cam_proj);
 		setUniform(mvpFragShadTest, 1, cam_view);
 		setUniform(mvpFragShadTest, 2, triangle_model);
-		setUniform(mvpFragShadTest, 3, new	fTex, 0);
+		setUniform(mvpFragShadTest, 3, textTex, 0);
 		setUniform(mvpFragShadTest, 4, lightDir);
 
 		draw(mvpFragShadTest, triangle);
