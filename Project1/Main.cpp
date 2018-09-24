@@ -90,7 +90,7 @@ int main()
 	whitePixel[2] = blue;
 
 	texture newTex = makeTexture(1, 1, 3, whitePixel);
-	texture textTex = loadTexture("ZachEatsDick.jpg");
+	texture textTex = loadTexture("me.jpg");
 
 	while (!game.shouldClose())
 	{
